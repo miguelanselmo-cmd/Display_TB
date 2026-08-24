@@ -29,3 +29,14 @@
     font-family: Arial;
 }
 
+.informacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
