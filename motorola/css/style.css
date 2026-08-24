@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.main-bateria__lefth, .main-bateria__right{
+.main-bateria{
     height: 900px;
     display: flex;
     justify-content: center;
@@ -17,3 +17,10 @@
     height: 700px;
 }
 
+.textos{
+    height: 700px;
+    width: 850px;
+    border: solid;
+    font-family: helvetica;
+    font-size: x-large;
+    }
