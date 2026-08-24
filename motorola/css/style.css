@@ -6,7 +6,19 @@
     box-sizing: border-box;
 }
 
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.textos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.Título, .Subtítulo1, .Subtítulo2, .Subtítulo3{
+    border: 3px;
+}
 
