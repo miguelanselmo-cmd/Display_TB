@@ -6,19 +6,14 @@
     box-sizing: border-box;
 }
 
+.main-bateria__lefth, .main-bateria__right{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Título, .Subtítulo1, .Subtítulo2, .Subtítulo3{
-    border: 3px;
+    height: 700px;
 }
 
