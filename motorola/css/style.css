@@ -7,21 +7,22 @@
 }
 
 .main-bateria{
-    height: 900px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imagem{
-    height: 700px;
+    height: 600px;
+    width: 450px;
 }
 
 .textos{
-    height: 700px;
-    width: 850px;
+    height: 600px;
+    width: 450px;
     font-family: helvetica;
-    font-size: x-large;
+    font-size: large;
     }
 
 .subtitulo{
@@ -31,12 +32,10 @@
 
 .informacao{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .final{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
