@@ -70,9 +70,23 @@
     background-color: var(--ui-link-hover-bg);
 }
 .color-section__bar{
+    display: flex;
+    align-items: end;
+    justify-content: center;
     flex-grow: 1;
     height: 100%;
     transition: transform 0.25s ease;
+}
+
+.color-section__bar p{
+    background-color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 12px;
+    visibility: hidden;
+}
+
+.color-section__bar:hover p{
+    visibility: visible;
 }
 
 .color-section__bar:hover{
@@ -108,5 +122,6 @@ p{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: var(--ui-text-title);
+    color: #000;
 }
+
