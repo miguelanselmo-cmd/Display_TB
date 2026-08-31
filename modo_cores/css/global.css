@@ -16,11 +16,10 @@
 .color-section__sidebar{
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 100%;
+    justify-content: center;
+    width: 260px;
     background-color: #441a61;
     padding: 20px;
-    justify-content: center;
     align-items: center;
 }
 
@@ -51,7 +50,7 @@
 }
 
 .color-section__link--active:hover{
-    color: #26c3eb;
+    color: #26eb57;
 }
 
 .color-section__bar{}
@@ -60,22 +59,22 @@
 
 .color-section__bar--rgb-1{
     width: 15%;
-    background-color: red;
+    background-color: var(--color-rgb-1);
 }
 
 .color-section__bar--rgb-2{
     width: 15%;
-    background-color: green;
+    background-color: var(--color-rgb-2);
 }
 
 .color-section__bar--rgb-3{
     width: 15%;
-    background-color: blue;
+    background-color: var(--color-rgb-3);
 }
 
 .color-section__bar--rgb-4{
     width: 15%;
-    background-color: yellow;
+    background-color: var(--color-rgb-4);
 }
 
 .color-section__bar--rgb-5{
