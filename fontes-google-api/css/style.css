@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo-principal{
+    height: 10vh;
+    width: 100%;
+    border: 2px solid purple;
+}
+
+.conteudo-principal__titulo{
+    border: 2px solid red;
+    width: 650px;
+    height: 200px;
+}
+
+.conteudo-principal__receita{
+    display: flex;
+    border: 2px solid blue;
+    width: 800px;
+    height: 400px;
+}
+
+.conteudo-principal__receita--esquerda{}
+
+.conteudo-principal__ingredientes{
+    border: 2px solid green;
+    width: 800px;
+    height: 400px;
+}
+
+.conteudo-principal__ingredientes--lista{
+    border: 2px solid yellow;
+    width: 800px;
+    height: 400px;
+}
+
+.conteudo-principal__ingredientes--modo-fazer{
+    border: 2px solid magenta;
+    width: 800px;
+    height: 400px;
+}
