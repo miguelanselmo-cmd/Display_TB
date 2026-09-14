@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./reset.css);
+@import url(./design-systema.css);
+
+
+
+
+
+.brands{
+    padding: 30px;
+}
+
+.brands__title{
+    margin-bottom: 30px;
+}
+
+.brands__title h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.brands__grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.brand-card{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 280px;
+}
+
+.brand-card__image{}
+
+.brand-card__image span{}
+
+.brand-card__title{}
+
+.brand-card__description{}
+
+.brand-card__button{}
