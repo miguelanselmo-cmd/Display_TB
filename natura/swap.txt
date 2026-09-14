@@ -1,0 +1,29 @@
+<main class="main-container">
+        <section class="main-brands__title">
+            <h1>conheça nossas marcas</h1>
+        </section>
+        <section class="main-brands__grid">
+            <div class="brand-card__Kaiak">
+                <img src="" alt="imag">
+                <h2 class="brand-card__title">
+                    <p>Kaiak</p>
+                </h2>
+                <h3 class="brand-card__description">
+                    <p>descrição</p>
+                </h3>
+                <button class="brand-card__button">
+
+                </button>
+            </div>
+            
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    
