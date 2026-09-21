@@ -6,8 +6,6 @@
 
 
 
-
-
 .color-section{
     display: flex;
     height: 100vh;
@@ -96,8 +94,6 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
+.color-section__content{}
 
-
-.sumario{
-    background: yellow;
-}
+.color-section__palette{}
