@@ -94,6 +94,21 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
-.color-section__content{}
+.color-section__content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
-.color-section__palette{}
+.color-section__palette{
+    display: flex;
+    height: 43vh;
+    width: 100%;
+}
+
+.color-section__faq{}
+
+.color-section__faq-title{}
+
+.color-section__faq-question{}
