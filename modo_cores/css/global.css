@@ -107,7 +107,10 @@
     width: 100%;
 }
 
-.color-section__faq{}
+.color-section__faq{
+    flex-grow: 1;
+    background-color: var(--faq-bg);
+}
 
 .color-section__faq-title{}
 

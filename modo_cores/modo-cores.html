@@ -9,7 +9,7 @@
 <body>
 
     <!-- RGB -->
-    <secion id="rgb" class="color-section">
+    <section id="rgb" class="color-section">
         <aside class="color-section__sidebar">
             <h2 class="color-section__title">Modelo RGB</h2>
             <nav class="color-section__menu">
@@ -33,30 +33,31 @@
             <section class="color-section__faq" aria-labelledby="fag-rgb-title">
                 <h3 id="fag-rgb-title" class="color-section__faq-title">Perguntas Frequentes sobre RGB</h3>
                 <details class="color-section__faq-item">
-                    <summary class="color-section__faq-question">Lorem</summary>
-                    <p class="color-section__faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates,
-                         tenetur culpa, ipsa corrupti aperiam quibusdam impedit perspiciatis voluptatem harum ipsam expedita. 
-                         Odit sunt pariatur ullam, tenetur esse iste ratione.</p>
+                    <summary class="color-section__faq-question">O que significa o RGB ser um "sistema aditivo"?</summary>
+                    <p class="color-section__faq-answer">Significa que as cores são criadas pela adição de luz. Quanto mais luz você soma,
+                        mais clara a cor se torna. Se você misturar o Vermelho, o Verde e o Azul em suas intensidades máximas na tela, 
+                        o resultado será a luz branca pura.</p>
                 </details>
                 <details class="color-section__faq-item">
-                    <summary class="color-section__faq-question">Lorem</summary>
-                    <p class="color-section__faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates,
-                         tenetur culpa, ipsa corrupti aperiam quibusdam impedit perspiciatis voluptatem harum ipsam expedita. 
-                         Odit sunt pariatur ullam, tenetur esse iste ratione.</p>
+                    <summary class="color-section__faq-question">Como os códigos RGB funcionam na prática?</summary>
+                    <p class="color-section__faq-answer">Cada cor é representada por três números que variam de
+                        0 a 255 (ex: R: 255, G: 0, B: 0 é o vermelho puro). Na programação web, 
+                        esses números são convertidos para o formato Hexadecimal (ex: #FF0000), 
+                        muito usado no desenvolvimento de sites e aplicativos.</p>
                 </details>
                 <details class="color-section__faq-item">
-                    <summary class="color-section__faq-question">Lorem</summary>
-                    <p class="color-section__faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates,
-                         tenetur culpa, ipsa corrupti aperiam quibusdam impedit perspiciatis voluptatem harum ipsam expedita. 
-                         Odit sunt pariatur ullam, tenetur esse iste ratione.</p>
+                    <summary class="color-section__faq-question">Qual é o melhor formato de arquivo para salvar imagens em RGB?</summary>
+                    <p class="color-section__faq-answer">Para manter a qualidade em telas digitais, os formatos mais recomendados são o PNG
+                        (ideal para gráficos, logos e imagens com transparência) e o JPEG (ótimo para fotografias pesadas).
+                        Para a web moderna, o formato WebP também é excelente por ser mais leve.</p>
                 </details>
             </section>
         </div>
-    </secion>
+    </section>
 
 
     <!-- CMKY -->
-    <secion id="cmyk" class="color-section">
+    <section id="cmyk" class="color-section">
         <aside class="color-section__sidebar">
             <h2 class="color-section__title">Modelo CMYK</h2>
             <nav class="color-section__menu">
@@ -67,16 +68,42 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--cmyk-1"><p>cmyk (#e60000)</p></div>
-        <div class="color-section__bar color-section__bar--cmyk-2"><p>cmyk (#006b00)</p></div>
-        <div class="color-section__bar color-section__bar--cmyk-3"><p>cmyk (#0000ae)</p></div>
-        <div class="color-section__bar color-section__bar--cmyk-4"><p>cmyk (#dfdf05)</p></div>
-        <div class="color-section__bar color-section__bar--cmyk-5"><p>cmyk (#03e6e6)</p></div>
-        <div class="color-section__bar color-section__bar--cmyk-6"><p>cmyk (#d900d9)</p></div>
-    </secion>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta CMYK">
+                <div class="color-section__bar color-section__bar--cmyk-1"><p>cmyk (#e60000)</p></div>
+                <div class="color-section__bar color-section__bar--cmyk-2"><p>cmyk (#006b00)</p></div>
+                <div class="color-section__bar color-section__bar--cmyk-3"><p>cmyk (#0000ae)</p></div>
+                <div class="color-section__bar color-section__bar--cmyk-4"><p>cmyk (#dfdf05)</p></div>
+                <div class="color-section__bar color-section__bar--cmyk-5"><p>cmyk (#03e6e6)</p></div>
+                <div class="color-section__bar color-section__bar--cmyk-6"><p>cmyk (#d900d9)</p></div>
+            </section>
+
+             <section class="color-section__faq" aria-labelledby="fag-cmyk-title">
+                <h3 id="fag-cmyk-title" class="color-section__faq-title">Perguntas Frequentes sobre CMYK</h3>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Por que a letra "K" representa a cor preta no CMYK?</summary>
+                    <p class="color-section__faq-answer">A letra "K" vem de Key (Chave). Na indústria gráfica tradicional,
+                        a placa do preto era a "placa chave" que servia de guia para alinhar as outras três cores
+                        . Além disso, usa-se o "K" para evitar confusão com o "B" de Blue (Azul) do sistema RGB.</p>
+                </details>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">O que é o "Preto Rico" (Rich Black) no CMYK?</summary>
+                    <p class="color-section__faq-answer">Se você usar apenas 100% da tinta preta (C:0 M:0 Y:0 K:100),
+                        o resultado impresso será um cinza muito escuro e fosco. Para conseguir um preto profundo e brilhante
+                        , os designers misturam uma porcentagem das outras tintas (uma fórmula comum é C:40 M:30 Y:30 K:100)..</p>
+                </details>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Posso imprimir uma cor Neon usando apenas o CMYK?</summary>
+                    <p class="color-section__faq-answer">Não. O CMYK padrão não consegue reproduzir cores fluorescentes,
+                        neon ou tons metálicos (como ouro e prata). Para imprimir essas cores, a gráfica precisa utilizar
+                        tintas especiais pré-misturadas, conhecidas como cores de escala Pantone (ou Spot Colors).</p>
+                </details>
+            </section>
+        </div>
+    </section>
 
     <!-- Netflix -->
-    <secion id="netflix" class="color-section">
+    <section id="netflix" class="color-section">
         <aside class="color-section__sidebar">
             <h2 class="color-section__title">Modelo NETFLIX</h2>
             <nav class="color-section__menu">
@@ -87,13 +114,36 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--netflix-1"><p>Netflix (#b1060f)</p></div>
-        <div class="color-section__bar color-section__bar--netflix-2"><p>Netflix (#e50914)</p></div>
-        <div class="color-section__bar color-section__bar--netflix-3"><p>Netflix (#000000)</p></div>
-    </secion>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta NETFLIX">
+                <div class="color-section__bar color-section__bar--netflix-1"><p>Netflix (#b1060f)</p></div>
+                <div class="color-section__bar color-section__bar--netflix-2"><p>Netflix (#e50914)</p></div>
+                <div class="color-section__bar color-section__bar--netflix-3"><p>Netflix (#000000)</p></div>
+            </section>
+
+            <section class="color-section__faq" aria-labelledby="fag-netflix-title">
+                <h3 id="fag-netflix-title" class="color-section__faq-title">Perguntas Frequentes sobre NETFLIX</h3>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Por que a Netflix remove filmes e séries do catálogo?</summary>
+                    <p class="color-section__faq-answer">A Netflix adquire os direitos de exibição de estúdios e distribuidoras por um período de tempo 
+                        determinado através de contratos de licenciamento. Quando o contrato expira, o título é removido se não for renovado.</p>
+                </details>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Como funciona o algoritmo de recomendação da Netflix?</summary>
+                    <p class="color-section__faq-answer">O sistema analisa o seu histórico de visualização, as avaliações que você faz, o horário em que assiste,
+                         os dispositivos utilizados e o comportamento de outros usuários com gostos parecidos para personalizar a sua tela inicial.</p>
+                </details>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Posso compartilhar minha senha da Netflix com pessoas fora da minha casa?</summary>
+                    <p class="color-section__faq-answer">A política atual da empresa restringe o compartilhamento de contas fora da "Residência Netflix".
+                         Para pessoas que moram em endereços diferentes, é necessário assinar um perfil de "membro extra" ou criar uma conta própria.</p>
+                </details>
+            </section>
+        </div>
+    </section>
 
     <!-- Google -->
-    <secion id="google" class="color-section">
+    <section id="google" class="color-section">
         <aside class="color-section__sidebar">
             <h2 class="color-section__title">Modelo GOOGLE</h2>
             <nav class="color-section__menu">
@@ -104,11 +154,38 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--google-1"><p>Google (#db4437)</p></div>
-        <div class="color-section__bar color-section__bar--google-2"><p>Google (#f4b400)</p></div>
-        <div class="color-section__bar color-section__bar--google-3"><p>Google (#0f9d58)</p></div>
-        <div class="color-section__bar color-section__bar--google-4"><p>Google (#4285f4)</p></div>
-    </secion>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta NETFLIX">
+                <div class="color-section__bar color-section__bar--google-1"><p>Google (#db4437)</p></div>
+                <div class="color-section__bar color-section__bar--google-2"><p>Google (#f4b400)</p></div>
+                <div class="color-section__bar color-section__bar--google-3"><p>Google (#0f9d58)</p></div>
+                <div class="color-section__bar color-section__bar--google-4"><p>Google (#4285f4)</p></div>
+            </section>
+
+            <section class="color-section__faq" aria-labelledby="fag-google-title">
+                <h3 id="fag-google-title" class="color-section__faq-title">Perguntas Frequentes sobre GOOGLE</h3>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Como o Google decide quais sites aparecem primeiro na busca?</summary>
+                    <p class="color-section__faq-answer">O motor de busca usa robôs para rastrear a web e organizar as páginas em um índice. 
+                        Quando você pesquisa, algoritmos analisam centenas de fatores (como relevância das palavras-chave, 
+                        qualidade do conteúdo, velocidade do site e segurança) para exibir os melhores resultados.</p>
+                </details>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">O Google lê os meus e-mails e mensagens privadas?</summary>
+                    <p class="color-section__faq-answer">O Google não vende suas informações pessoais e, desde 2017, 
+                         não lê o conteúdo do seu Gmail para fins de direcionamento de anúncios.
+                         No entanto, sistemas automatizados processam os dados para oferecer recursos como filtros de spam, 
+                         respostas inteligentes e detecção de vírus.</p>
+                </details>
+                <details class="color-section__faq-item">
+                    <summary class="color-section__faq-question">Qual é a diferença entre o Google e o Google Chrome?</summary>
+                    <p class="color-section__faq-answer">O Google é a empresa de tecnologia (e o seu famoso motor de busca).
+                        O Google Chrome é um software específico criado por essa empresa: 
+                        o navegador de internet que você usa para acessar os sites.</p>
+                </details>
+            </section>
+        </div>
+    </section>
 
 </body>
 </html>
