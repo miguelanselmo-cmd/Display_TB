@@ -24,6 +24,7 @@ h1{
     gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
 .box{
@@ -33,6 +34,56 @@ h1{
     background-color: black;
 }
 
+.container-position{
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+
+.filho-tamanho{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position:absolute;
+}
+
+.filho01__container-position{
+    top: 0;
+    left: 0;
+}
+
+.filho02__container-position{
+    top: 0;
+    right: 0;
+}
+
+.filho03__container-position{
+    bottom: 0;
+    left: 0;
+}
+
+.filho04__container-position{
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* For devices with a minimum width of 768px (Medium) */
 @media (min-width: 768px) {
   body {
@@ -40,7 +91,8 @@ h1{
     color: white;
   }
   .box{
-    max-width: 350px;
+    width: 45%;
+    max-width: 600px;
   }
 }
 
@@ -51,6 +103,6 @@ h1{
     color: black;
   }
   .box{
-    max-width: 450px;
+    width: 300px
   }
 }
