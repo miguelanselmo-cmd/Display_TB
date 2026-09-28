@@ -5,3 +5,52 @@
 
 
 
+        /* Base style for mobile devices */
+body {
+    padding: 20px;
+  background-color: olive;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+/* For devices with a minimum width of 768px (Medium) */
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+  .box{
+    max-width: 350px;
+  }
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media (min-width: 992px) {
+  body {
+    background-color: tan;
+    color: black;
+  }
+  .box{
+    max-width: 450px;
+  }
+}
