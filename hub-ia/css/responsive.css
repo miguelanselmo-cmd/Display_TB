@@ -8,9 +8,10 @@
         /* Base style for mobile devices */
 body {
     padding: 20px;
-  background-color: olive;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: olive;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300vh;
 }
 
 h1{
@@ -70,7 +71,17 @@ h1{
     right: 0;
 }
 
+.whats img{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(11, 241, 3);
+    border-radius: 50%;
+    border: 3px solid #fff;
 
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+}
 
 
 
