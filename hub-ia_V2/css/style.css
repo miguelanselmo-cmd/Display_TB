@@ -158,5 +158,7 @@
     transition: var(--transition);
 }
 
-.faq__summary{}
+.faq__summary[opne]{
+    border-color: var(--color-primary);
+}
 
