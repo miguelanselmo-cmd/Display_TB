@@ -2,17 +2,45 @@
 @import url(./reset.css);
 
 
-.header{}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background-color: var(--color-bg-transparent);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+}
 
-.header__brand{}
+.header__brand{
+    display: flex;
+    align-items: center;
+}
 
-.header__title{}
+.header__title{
+    font-size: var(--font-size-xl);
+    color: var(--color-primary);
+    font-weight: 700;
+}
 
-.nav{}
+.nav__list{
+    display: flex;
+    gap: 16px;
+    background-color: var(--color-nav-list-bg);
+    padding: 6px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+}
 
-.nav__list{}
-
-.nav__item{}
+.nav__item{
+    display: flex;
+}
 
 .nav__link{}
 
