@@ -158,7 +158,7 @@
     transition: var(--transition);
 }
 
-.faq__summary[opne]{
+.faq__item[open]{
     border-color: var(--color-primary);
 }
 
