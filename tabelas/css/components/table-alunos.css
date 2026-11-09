@@ -21,20 +21,20 @@
     border: 1px solid;
 }
 
-.table-alunos__cabecalho th{
+.table-alunos__cabecalho {
     text-align: center;
     background: rgb(184, 184, 232);
 }
 
-.table-alunos__cabecalho td{
+.table-alunos td{
     background-color: rgb(213, 178, 246);
 }
 
-.table-alunos__cabecalho tfoot{
+.table-alunos tfoot{
     text-align: center;
     background-color: rgb(184, 184, 232);
 }
-.table-alunos__cabecalho tfoot tr td{
+.table-alunos tfoot tr td{
     font-size: 15px;
     background-color: rgb(184, 184, 232);
 }
@@ -42,5 +42,6 @@
 .table-alunos__title{
     height: 60px;
     align-items: center;
-    background: red;
+    background: rgb(166, 166, 237);
+    border: 1px solid;
 }
