@@ -1,3 +1,6 @@
+
+
+
 .main-content{
     padding: 20px;
     background-color: #e9daf8;
@@ -12,7 +15,7 @@
 
 .table-alunos{
     margin-top: 0;
-    border: 1px solid ;
+    border: 1px solid;
     width: 33%;
     border-collapse: collapse;
 }
@@ -44,4 +47,7 @@
     align-items: center;
     background: rgb(166, 166, 237);
     border: 1px solid;
+    color: blueviolet;
+    font-size: 30px;
+
 }
