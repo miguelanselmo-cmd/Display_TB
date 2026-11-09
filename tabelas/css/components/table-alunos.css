@@ -1,0 +1,46 @@
+.main-content{
+    padding: 20px;
+    background-color: #e9daf8;
+}
+
+.header-title{
+    margin-bottom: 15px;
+}
+.header-title h2{
+    font-size: 20px;
+}
+
+.table-alunos{
+    margin-top: 0;
+    border: 1px solid ;
+    width: 33%;
+    border-collapse: collapse;
+}
+
+.table-alunos__cabecalho th, td{
+    border: 1px solid;
+}
+
+.table-alunos__cabecalho th{
+    text-align: center;
+    background: rgb(184, 184, 232);
+}
+
+.table-alunos__cabecalho td{
+    background-color: rgb(213, 178, 246);
+}
+
+.table-alunos__cabecalho tfoot{
+    text-align: center;
+    background-color: rgb(184, 184, 232);
+}
+.table-alunos__cabecalho tfoot tr td{
+    font-size: 15px;
+    background-color: rgb(184, 184, 232);
+}
+
+.table-alunos__title{
+    height: 60px;
+    align-items: center;
+    background: red;
+}

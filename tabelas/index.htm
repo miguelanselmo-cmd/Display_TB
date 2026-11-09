@@ -12,19 +12,24 @@
     <main class="main-content">
         <header class="header-title">
             <h1>Tabelas</h1>
-            <h2>Notas 1DS - SESI</h2>
         </header>
         <!-- Container para criar uma tabela -->
-        <table class="table-main">
+        <table class="table-alunos">
             <!-- Criar uma linha na tabela (tr= table row) -->
-             <tr>
+            <thead>
+                <tr>
+                    <th colspan="4" class="table-alunos__title">Notas 1DS - SESI</th>
+                </tr>
+                 <tr>
                 <!-- Criar uma cabeçalho da linha (th= table header) -->
-                 <th>Aluno</th>
-                 <th>Professor</th>
-                 <th>Disciplina</th>
-                 <th>Nota</th>
+                 <th class="table-alunos__cabecalho">Aluno</th>
+                 <th class="table-alunos__cabecalho">Professor</th>
+                 <th class="table-alunos__cabecalho">Disciplina</th>
+                 <th class="table-alunos__cabecalho">Nota</th>
              </tr>
-             <tr>
+            </thead>
+            <tbody>
+                <tr>
                 <!-- Inserir dados na linha (td= table data) -->
                  <td>Ivo</td>
                  <td>Alex</td>
@@ -49,6 +54,50 @@
                 <td>Matemática</td>
                 <td>8</td>
              </tr>
+            </tbody>
+            <tfoot>
+                 <tr>
+                    <td colspan="4">Dados referentes ao 1º semestre de 2026</td>
+                </tr>
+            </tfoot>  
+        </table>
+            
+        <table class="table-notas">
+            <tr>
+                <th>Matéria</th>
+                <th>1º Semestre</th>
+                <th>2º Semestre</th>
+                <th>3º Semestre</th>
+                <th>Média</th>
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Português</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Artes</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Filosofia</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
         </table>
     </main>
     

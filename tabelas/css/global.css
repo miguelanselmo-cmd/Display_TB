@@ -1,5 +1,5 @@
 @import url(./reset.css);
-
+@import url(./components/table-alunos.css);
 
 .main-content{
     padding: 20px;
@@ -8,9 +8,5 @@
 
 .header-title{
     margin-bottom: 15px;
-}
-
-.table-main{
-    
 }
 
