@@ -1,1 +1,16 @@
-@import url(./reset.css)
+@import url(./reset.css);
+
+
+.main-content{
+    padding: 20px;
+    background-color: #e9daf8;
+}
+
+.header-title{
+    margin-bottom: 15px;
+}
+
+.table-main{
+    
+}
+
